@@ -1,0 +1,26 @@
+{
+  "name": "fis3-parser-render-ejs",
+  "version": "0.0.1",
+  "description": "FIS3 ejs file parser plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidianhao123/fis3-parser-render-ejs.git"
+  },
+  "keywords": [
+    "FIS3",
+    "ejs"
+  ],
+  "author": "dainli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lidianhao123/fis3-parser-render-ejs/issues"
+  },
+  "homepage": "https://github.com/lidianhao123/fis3-parser-render-ejs#readme",
+  "dependencies": {
+    "ejs": "^2.5.6"
+  }
+}
