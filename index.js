@@ -6,7 +6,7 @@ module.exports = function(content, file, conf) {
   fis.log.info("fis-parser-render-ejs parser %s html file", file.toString().match(/^\S+\/(\S+)$/)[1]);
   var opts = fis.util.clone(conf),
     data = {},
-    options = {};
+    options = fis.util.clone(conf);
 
   if(opts.dataPath){
     data = require(path.join(fis.project.getProjectPath(), opts.dataPath));

@@ -13,6 +13,7 @@ fis.media("debug")
   .match('**.html', {
     parser: fis.plugin('render-ejs', {
       dataPath: 'data.json',
+      //其他参数 具体参考 https://github.com/mde/ejs#options
     }),
   })
 ```

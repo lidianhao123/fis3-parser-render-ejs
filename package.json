@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-render-ejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "FIS3 ejs file parser plugin",
   "main": "index.js",
   "scripts": {
